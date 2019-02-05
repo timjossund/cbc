@@ -277,6 +277,10 @@ h3 {
     width: 100%;
 }
 
+.r-c {
+    text-align: center;
+}
+
 footer {
     height: 50px;
     background-color: #1F1F1F;
