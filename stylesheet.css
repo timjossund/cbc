@@ -245,6 +245,38 @@ h3 {
     background-color: white;
 }
 
+.contactdiv {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contactdiv {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactlabel {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contactform {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.messagearea {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
 footer {
     height: 50px;
     background-color: #1F1F1F;
