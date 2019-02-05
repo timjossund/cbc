@@ -111,18 +111,29 @@
                 <p class="mb-0 b-p-t">Sunday Morning @ 11am</p>
                 <p class="mb-0 b-p-t">Sunday Evening @ 6pm</p>
                 <p class="mb-3 b-p-t">Wednesday @ 7pm</p>
-                <h3 id="contact-t">Contact Information:</h3>
-                <div class="d-flex justify-content-center" id="email-i" style="font-size: 35px;">
-                    <form method="get" action="mailto:pastorjossund@gmail.com">
-                      <button class="btn-lg main-button"><i class="far fa-envelope"></i> Email Us</button>
-                    </form>
-                </div>
             </div>
-            <div class="col-sm-12 col-lg-6 p-0 map-section" style="height: 600px;">
-                <a href="https://www.google.com/maps/place/3838+Enterprise+Dr,+Sheboygan,+WI+53083/@43.786235,-87.7585776,18z/data=!3m1!4b1!4m5!3m4!1s0x880358bfcb78fff9:0x288bafb39db3bb99!8m2!3d43.7862331!4d-87.7574833?hl=en-US"><h3 id="map-text" class="pt-3">Click here to view in Google Maps</h3></a>
+            <div class="col-sm-12 col-lg-6 pt-5 m-0 contactdiv">
+                <form class="contactform" name="contact" method="POST" data-netlify="true">
+                  <h4 class="pb-4">Email us</h4>
+                  <p>
+                    <label class="contactlabel">Your Name: <input class="contactform" type="text" name="name" /></label>   
+                  </p>
+                  <p>
+                    <label class="contactlabel">Your Email: <input class="contactform" type="email" name="email" /></label>
+                  </p>
+                  <p>
+                    <label class="contactlabel">Message: <textarea class="messagearea" name="message"></textarea></label>
+                  </p>
+                  <p>
+                    <button class="btn-lg main-button" type="submit">Send</button>
+                  </p>
+                </form>
             </div>
         </div>
     </div>
+    <div class="p-0 map-section" style="height: 400px;">
+                <a href="https://www.google.com/maps/place/3838+Enterprise+Dr,+Sheboygan,+WI+53083/@43.786235,-87.7585776,18z/data=!3m1!4b1!4m5!3m4!1s0x880358bfcb78fff9:0x288bafb39db3bb99!8m2!3d43.7862331!4d-87.7574833?hl=en-US"><h3 id="map-text" class="pt-3">Click here to view in Google Maps</h3></a>
+            </div>
     <footer>
         <p class="footertext pt-3 ml-2">Copyright 2019 | All rights reserved</p>
     </footer>
