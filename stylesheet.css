@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+.hero-section {
+    height: 85vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(images/cbcbgdarkened.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+#herotext1 {
+    font-size: 50px;
+    padding-top: 30vh;
+    color: white;
+}
+
+#herotext2 {
+    color: white;
+}
+
+#welcome-section {
+    background-color: white;
+    padding: 50px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+
+#mainpastorpic {
+    height: 275px;
+}
+
+#wmessage-section {
+    margin: 0px auto;
+    padding: 20px;
+    max-width: 750px;
+    text-align: justify;
+    align-content: center;
+}
+
+#pastorname {
+    color: black;
+    padding-bottom: 5px;
+    font-family: Helvetica;
+}
+
+
+.navbar-collapse {
+    text-align: center;
+    display:inline-block;
+    vertical-align: top;
+}
+
+#navtog {
+    border-width: 0px;
+}
+
+#nav-i {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#iconwp, #iconfb, #icontw {
+    padding: 7px;
+    color: darkgrey;
+}
+
+#iconwp:hover, #iconfb:hover, #icontw:hover {
+    transition: .2s;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+.b-p-t {
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    font-size: 35px;
+    color: #736357;
+    font-family: Yellowtail;
+    text-align: center;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#white-title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#menu-title {
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.main-button {
+    color: black;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 0px;
+}
+
+.main-button:hover {
+    box-shadow: 0px 6px 10px grey;
+    transition: .2s;
+}
+
+.js-button {
+    background-color: rgba(0,0,0,0.00);
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 0px;
+}
+
+.js-button:hover {
+    box-shadow: 0px 6px 10px black;
+    transition: .2s;
+}
+
+.walk-alone {
+    height: 600px;
+    background-image: url(images/lonelymanddarkened.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.walk-text {
+    color: white;
+    font-family: Yellowtail;
+    font-size: 40px;
+    padding-top: 35vh;
+    
+}
+
+#invite-text {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#j-section {
+    height: 400px;
+    background-image: linear-gradient(#736357, #564937);
+}
+
+#js-heading {
+    color: white;
+    font-family: Yellowtail;
+}
+
+#js-text {
+    color: white;
+    text-align: center;
+}
+
+.contact-section {
+    height: 600px;
+    background-color: white;
+}
+
+#meetingpt {
+    color: black;
+}
+
+#servicett {
+    color: black;
+}
+
+.map-section {
+    background-image: url("images/cbcmappic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#map-text {
+    text-align: center;
+    color: black;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #736357; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  transition: .2s;
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#contact-t {
+    color: Black;
+}
+
+#email-i {
+    color: black;
+}
+
+#image-section {
+    background-color: white;
+}
+
+footer {
+    height: 50px;
+    background-color: #1F1F1F;
+    width: 100%;
+}
+
+.footertext {
+    font-family: Helvetica;
+    font-weight: 100;
+    font-size: 12px;
+    color: white;
+}
+
+
